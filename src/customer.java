@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class customer {
+public class Customer {
     private String name;
     private String phoneNumber;
     private ArrayList<Call> calls;
@@ -10,7 +10,7 @@ public class customer {
     public String getPhoneNumber() {
         return phoneNumber;
     }
-    public customer(String name, String phoneNumber) {
+    public Customer(String name, String phoneNumber) {
         this.name = name;
         this.phoneNumber = phoneNumber;
         calls = new ArrayList<>();
